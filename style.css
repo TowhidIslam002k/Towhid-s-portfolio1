@@ -1,0 +1,260 @@
+body{
+    margin: 0px;
+    background-color: #FFF8F3;
+    width: 100% !important;
+    }
+
+    header{
+        margin-bottom: 50px;
+    }
+    .nav-link1{
+      text-decoration: none;
+      margin: 0 30px;
+    }
+
+    .nav-link1:hover{
+      color: lawngreen;
+    }
+
+    .my-fb:hover{
+      color: lawngreen;
+      text-decoration: none;
+      border-bottom: 10px dotted white;
+    }
+
+    .bgd-color{
+        background: #ff8205;
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        /* height: 70px; */
+    }
+
+    .img-1st{
+        width: 70px;
+        height: 70px;
+        border: none;
+        border-radius: 50%;
+    }
+
+    .title{
+     color: rgb(253, 6, 6);
+    }
+
+    .link-button{
+      text-decoration: none;
+      background-image: linear-gradient(45deg, yellow, tomato);
+      padding: 10px 20px;
+      border-radius: 10px;
+      color: white;
+      font-weight: 700;
+    }
+
+    .col-md-6{
+      width: 40%;
+      margin-left: 7%;
+      padding-left: 2%;
+    }
+
+    .col-md-6 img{
+      width: 95%;
+      border-radius: 50%; 
+    }
+
+    header{
+      background: #FFF8F3;
+      background-image:url(images/Untitled-10.png);
+      background-repeat: no-repeat; 
+      background-position:top left ;
+    }
+
+    .dream-area{
+      background-image: url(images/dream-bg.png);
+      background-repeat: no-repeat;
+      background-position: right;
+      padding-bottom: 150px;
+    }
+
+    section{
+      padding-bottom: 70px;
+    }
+    
+    .what-i-know{
+      font-weight: bold;
+      text-align: justify;
+    }
+
+    p{
+      color: blue;
+      font-size: 20px;
+    }
+
+    h1{
+      font-size: 30px;
+      background-color: lightblue;
+    }
+
+    h2{
+      font-size: 30px;
+      color: white;
+      background-color: black;
+      font-weight: bolder;
+    }
+
+    h4{
+      color: white;
+      background-color: blue;
+      font-size: 25px;
+    }
+
+    #width{
+      width: 250px;
+      margin-left: 8%;
+    }
+
+    .set-widht{
+        width: 550px;
+    }
+
+    .single-experience{
+      box-shadow: 10px 10px 40px yellow;
+      border-radius: 5px;
+      padding: 0 20px;
+      background-color: white;
+    } 
+
+    .margin-left{
+        margin-left: 10px;
+    }
+    .bottom-banner{
+      background-image: url(images/exp-bg.png);
+      background-repeat: no-repeat;
+      background-position: left;
+    }
+
+    .card-1{
+      border-left: 7px solid;
+      border-image: linear-gradient(180deg, yellow, tomato);
+      border-image-slice: 1;
+      width: 550px;
+    }
+
+    .card-2{
+      border-left: 7px solid;
+      border-image: linear-gradient(180deg, blue, cyan);
+      border-image-slice: 1;
+      width: 550px;
+    }
+
+    .margin-top{
+      margin-top: 15px;
+    }
+
+    .last-div{
+      width: 350px;
+      flex-wrap: wrap;
+    }
+    
+    .btn-primary {
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 20px;
+      border: 0;
+      padding: 18px 35px;
+      height: 64px;
+      border-radius: 5px;
+      background: #FD6E0A;
+    }
+
+    .contact-with-me{
+      display: flex;
+      gap: 100px;
+      height: 970px !important;
+      background: #FFF8F3;
+      padding: 130px 175px;
+      margin-bottom: 0%;
+      height: 800px;
+      background: url(images/developer.png), url(images/header_bg.png);
+      background-position: bottom left, bottom right;
+      background-repeat: no-repeat;
+    }
+
+    .section-description{
+      width: 350px;
+      color: dimgray;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: justify;
+    }
+
+    .last-div{
+      margin-left: 50px;
+    }
+
+    footer {
+      position: relative;
+      background: #3586ff;
+      min-height: 150px;
+      text-align: center;
+      width: 1361px;
+    }
+
+    .wave {
+      position: absolute;
+      top: -100px;
+      width: 100% ;
+      height: 100px;
+      background: url(images/wave.png);
+      background-size: 1000px 100px;
+    }
+
+    .wave1 {
+      z-index: 1000;
+      opacity: 1;
+      bottom: 0;
+      animation: animateWaves-1 4s linear infinite;
+    }
+
+    .wave2 {
+      z-index: 999;
+      opacity: 0.5;
+      bottom: 10px;
+      animation: animateWaves-2 4s linear infinite !important;
+    }
+
+    .wave3 {
+      z-index: 1000;
+      opacity: 0.2;
+      bottom: 15px;
+      animation: animateWaves-1 3s linear infinite;
+    }
+
+    .wave4 {
+      z-index: 999;
+      opacity: 0.7;
+      bottom: 20px;
+      animation: animateWaves-2 3s linear infinite;
+    }
+
+    @keyframes animateWaves-1 {
+      0% {
+        background-position-x: 1000px;
+      }
+
+      100% {
+        background-positon-x: 0px;
+      }
+    }
+
+    @keyframes animateWaves-2 {
+      0% {
+        background-position-x: -1000px;
+      }
+
+      100% {
+        background-positon-x: 0px;
+      }
+    }
+
+
