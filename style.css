@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     background-color: #FFF8F3;
-    width: 100% !important;
     }
 
     header{
@@ -197,7 +196,6 @@ body{
       background: #3586ff;
       min-height: 150px;
       text-align: center;
-      width: 1361px;
     }
 
     .wave {
